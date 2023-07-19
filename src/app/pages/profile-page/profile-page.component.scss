@@ -1,0 +1,104 @@
+@import '../../../assets/styles/colors.scss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle {
+  width: 320px;
+  height: 60px;
+  border: 1.5px solid $color-black;
+  border-radius: 18px;
+  margin: 10px;
+}
+
+.square {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 210px;
+  left: 255px;
+  background-color: $color-yellow;
+  border: 1.5px solid $color-black;
+  height: 45px;
+  width: 45px;
+  border-radius: 10px;
+}
+
+.camera-ico, .ico {
+  height: 35px;
+  width: 35px;
+}
+
+.ico {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.short {
+  width: 150px;
+}
+
+.image {
+  width: 60%;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.content {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  //margin-left: 3px;
+}
+
+.main-rectangles {
+  position: absolute;
+  top: 320px;
+  z-index: 1;
+}
+
+.background-rectangles {
+  position: absolute;
+  top: 324px;
+  z-index: 0;
+}
+
+.white {
+  background-color: white;
+}
+
+.green {
+  background-color: $color-green;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 350px)  {
+  .image {
+    margin-top: 60px;
+  }
+  .text {
+    margin-top: 25px;
+  }
+}
