@@ -1,6 +1,39 @@
 @import '../../../assets/styles/colors.scss';
 
+.container {
+  position: absolute;
+  bottom: 10px;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 .menu-block {
-  border: 2px solid $color-black;
-  border-radius: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1.5px solid $color-black;
+  border-radius: 24px;
+  width: 90%;
+  background: #67C1BC;
+  z-index: 1;
+}
+
+button:hover {
+  background: #FFF16F;
+  border: 1.5px solid $color-black;
+  border-radius: 10px;
+}
+
+.rectangle {
+  z-index: 0;
+  height: 40px;
+  width: 90%;
+  margin-bottom: -4px;
+  background: #FFF16F;
+  border: 1.5px solid $color-black;
+  border-radius: 24px;
 }
