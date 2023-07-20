@@ -1,5 +1,10 @@
 @import '../../../assets/styles/colors.scss';
 
+.block {
+  position: relative;
+  height: calc(100vh - 80px);
+  overflow-x: scroll;
+}
 
 .container {
   margin-top: 25px;
@@ -45,6 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .text-date {
@@ -68,4 +74,9 @@
 
 .ico-filter {
   width: 70%;
+}
+
+.card {
+  margin-bottom: 35px;
+  border: none;
 }
