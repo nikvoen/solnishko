@@ -1,0 +1,37 @@
+@import '../../../assets/styles/colors.scss';
+
+.background {
+  height:844px;
+  width:100%;
+  background-image:url(../../../assets/images/map-background.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.registration-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1.5px solid $color-black;
+  border-radius: 24px;
+  width: 90%;
+  background: #67C1BC;
+  z-index: 1;
+  height: 40px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  word-wrap: break-word;
+  align-items: center;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: -740px;
+}
+
+.map-header {
+
+}
