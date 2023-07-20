@@ -116,12 +116,11 @@
 .green {
   background-color: $color-green;
 }
-
-@media only screen and (max-width: 991px) and (min-width: 350px)  {
   .image {
     margin-top: 60px;
   }
   .text {
     margin-top: 25px;
   }
-}
+
+
