@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.picture {
+  position: relative;
+}
+
 .centered {
   display: flex;
   align-items: center;
@@ -18,6 +22,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  position: relative;
 }
 
 .rectangle {
@@ -28,18 +34,26 @@
   margin: 10px;
 }
 
+.rectangle:hover {
+  background: $color-green;
+}
+
 .square {
   position: absolute;
+  right: -10px;
+  top: 205px;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 210px;
-  left: 255px;
   background-color: $color-yellow;
   border: 1.5px solid $color-black;
   height: 45px;
   width: 45px;
   border-radius: 10px;
+}
+
+.rectangle:hover {
+  background: $color-green;
 }
 
 .camera-ico, .ico {
@@ -56,8 +70,13 @@
   width: 150px;
 }
 
+.frame {
+  position: relative;
+  width: 180px;
+}
+
 .image {
-  width: 60%;
+  width: 100%;
 }
 
 .text {
@@ -71,7 +90,6 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  //margin-left: 3px;
 }
 
 .main-rectangles {
