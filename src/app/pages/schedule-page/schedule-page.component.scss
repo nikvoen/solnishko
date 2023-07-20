@@ -1,9 +1,21 @@
 @import '../../../assets/styles/colors.scss';
 
+
+.container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 90%;
+  position: relative;
+}
+
 .left-rectangle, .right-rectangle {
-  width: 45%;
+  width: 50%;
   height: 35px;
   border: 1.5px solid $color-black;
+}
+
+.left-rectangle:hover, .right-rectangle:hover {
+  background-color: $color-green;
 }
 
 .left-rectangle {
@@ -22,4 +34,38 @@
   align-items: center;
   font-weight: normal;
   font-size: 23px;
+}
+
+.ico-pointer {
+  width: 30px;
+}
+
+.frame {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-date {
+  margin: 0 20px 0 20px;
+  font-size: 27px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid $color-black;
+  border-radius: 10px;
+  width: 39px;
+  height: 39px;
+}
+
+.square:hover {
+  background-color: $color-green;
+}
+
+.ico-filter {
+  width: 70%;
 }
