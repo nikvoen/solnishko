@@ -1,0 +1,25 @@
+@import '../../../assets/styles/colors.scss';
+
+.left-rectangle, .right-rectangle {
+  width: 45%;
+  height: 35px;
+  border: 1.5px solid $color-black;
+}
+
+.left-rectangle {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-rectangle {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.select-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  font-size: 23px;
+}
